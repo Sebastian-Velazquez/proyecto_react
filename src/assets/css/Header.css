@@ -8,12 +8,13 @@
  
 }
 
+
 section{
-    padding: 40px;
+    
+    padding: 30px;
     background-color: #a33c42;
     display: flex;
-  flex-direction: column;
-  align-items: center;
+    
 }
 
 a{
@@ -21,11 +22,20 @@ a{
     color: rgb(243, 242, 245);
     
 }
+input{
+
+    border: 3px solid rgb(2, 2, 73);
+}
 .logoIka{
-    width: 60%;
+    width: 40%;
+    
 }
 .banner{
-    width: 100%;
+    height: 300px;
+    padding-right: 300px;
 }
+.header2{
+    flex-wrap: wrap;
 
 
+}

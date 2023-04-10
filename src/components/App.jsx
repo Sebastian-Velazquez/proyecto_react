@@ -1,6 +1,8 @@
 import React from "react";
 import '../assets/css/App.css';
 import '../assets/css/Header.css';
+import '../assets/css/Body.css';
+import '../assets/css/Footer.css';
 
 import Header from "./Header";
 import Body from "./Body";
