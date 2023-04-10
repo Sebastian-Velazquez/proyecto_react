@@ -4,18 +4,16 @@ function Header() {
   return (
     <section> 
       
-    <div>Header
-    </div><br />
-        <div>
-      <button className='button-burger'>
-     
-            
-            <i className="fa-sharp fa-solid fa-bars lista-hamburguesa" width="50px"> Lista hamburguesa </i>
-            </button >
-              <div>
-                <img src="../public/logo192.png" alt="logoo" />
+      <div>
+                <img src="./LogoIKA.png" alt="logoIKA" className='logoIka' />
               </div>
-              <br />
+    <br />
+    
+             <div>
+                <img src="./banner.jpg" alt="banner" className='banner' />
+              </div>
+             
+              
            <div>
             <input placeholder="Buscar" type="search" className="input" name="search"/>
             </div><br />
@@ -25,12 +23,14 @@ function Header() {
             <br />
             </div>
             <div>
-            <li><a href="/users/logout">Salir</a></li>
-            <li><a href="/users/register">Registrate</a></li>
             <li><a href="/users/login">Ingresá</a></li>
+            <li><a href="/users/register">Registrate</a></li>
             <li><a href="/product/productCart">Carrito</a></li>
+            <li><a href="/users/logout">Salir</a></li>
             </div>
-        </div>
+
+            
+        
 
     </section>
     
