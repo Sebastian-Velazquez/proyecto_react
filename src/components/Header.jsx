@@ -8,10 +8,14 @@ function Header() {
     </div><br />
         <div>
       <button className='button-burger'>
-      </button ><br />
-            <div>
-            <i className="fa-sharp fa-solid fa-bars lista-hamburguesa"> Lista hamburguesa </i>
-            </div><br />
+     
+            
+            <i className="fa-sharp fa-solid fa-bars lista-hamburguesa" width="50px"> Lista hamburguesa </i>
+            </button >
+              <div>
+                <img src="../public/logo192.png" alt="logoo" />
+              </div>
+              <br />
            <div>
             <input placeholder="Buscar" type="search" className="input" name="search"/>
             </div><br />
