@@ -1,8 +1,18 @@
-import React from 'react'
+import React from 'react' 
 
 function Header() {
   return (
-    <div>Header</div>
+    <section> 
+      
+    <div>Header
+    </div>
+    <div>
+      <button className='button-burger'>
+            <i className="fa-sharp fa-solid fa-bars lista-hamburguesa"> Lista hamburguesa </i>
+        </button ></div>
+    </section>
+    
+    
   )
 }
 
