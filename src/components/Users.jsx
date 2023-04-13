@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
 
 export class Users extends Component {
-  render() {
-    return (
-      <div>Users</div>
-    )
+  constructor(props){
+    super(props);
+    this.state = {
+      usuarios: ""
+    }
   }
 }
 

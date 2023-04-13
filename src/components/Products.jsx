@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
 
 export class Productos extends Component {
-  render() {
-    return (
-      <div>Productos</div>
-    )
+  constructor(props){
+    super(props);
+    this.state = {
+    producto: ""
+  }
   }
 }
 
