@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 
+
 export class Productos extends Component {
   constructor(props){
     super(props);
@@ -7,6 +8,9 @@ export class Productos extends Component {
     producto: ""
   }
   }
+
+
+  buscarProducto()
 }
 
 export default Productos
