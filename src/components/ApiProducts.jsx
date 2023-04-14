@@ -14,7 +14,13 @@ class ApiProducts extends Component {
     }
     render(){
      return(
-    <div>ApiProducts</div>
+    <div>
+        <tbody>
+            {this.state.productsList.map((products, index) => {
+                return <p></p>
+            })}
+        </tbody>
+    </div>
   )
 }
 }
