@@ -8,14 +8,15 @@ class ApiUsers extends Component {
         }
     }
     apiCall(url , consecuencia){
-        fetch(url)
+        fetch("https://api.giphy.com/v1/gifs")
             .then(response => response.json())
             .then(data => consecuencia(data))
             .catch( e => console.log(e))
+           
     }
     componentDidMount(){
         console.log("me monté")
-        this.apiCall("http://localhost:3001/api/users",this.mostrarUsuario)
+        this.apiCall("http://localhost:3000/api/users",this.mostrarUsuario)
     }
     mostrarUsuario = (data) =>{
         console.log(data)
@@ -35,11 +36,11 @@ class ApiUsers extends Component {
         if(this.state.ApiUsuario == ""){
             contenido = <p>Cargando ...</p>
         }else{
-            contenido = this.state.apiUsuario
+            contenido = this.state.ApiUsuario
         }
      return(
     <div>
-        {contenido}
+        {contenido} contenido
     </div>
   )
 }
