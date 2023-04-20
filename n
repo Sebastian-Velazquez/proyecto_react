@@ -1,0 +1,113 @@
+[33mcommit 40f56a3d8a1d5530ba181630a4882cbb856d8111[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: FrancoSanchezCamps <francosanchezcamps.100@gmail.com>
+Date:   Thu Apr 20 00:29:41 2023 -0300
+
+    apiproducts
+
+[33mcommit ec310b7355eb1b5d7cfad07999dafc0aa66d15d1[m
+Author: FrancoSanchezCamps <francosanchezcamps.100@gmail.com>
+Date:   Wed Apr 19 18:08:42 2023 -0300
+
+    api.users
+
+[33mcommit 433d2a934841f0dacb008b187e5b8b621e75835d[m
+Author: FrancoSanchezCamps <francosanchezcamps.100@gmail.com>
+Date:   Sat Apr 15 22:05:29 2023 -0300
+
+    apiUserReact
+
+[33mcommit 55e532f502605d73752df59d164a1412ae3b21c3[m
+Author: FrancoSanchezCamps <francosanchezcamps.100@gmail.com>
+Date:   Sat Apr 15 15:34:02 2023 -0300
+
+    body
+
+[33mcommit b6b12c3a28f17e7a33a331238f4406356c3e1ce4[m
+Author: unknown <maurosanchez@gmail.com>
+Date:   Fri Apr 14 13:12:32 2023 -0300
+
+    Api-User
+
+[33mcommit 4026e868d31dd5010c6f220904f77121db96e4d8[m
+Author: unknown <maurosanchez@gmail.com>
+Date:   Thu Apr 13 23:14:47 2023 -0300
+
+    trabajando/react/static
+
+[33mcommit caa7750b0f0175a655f8fa91bff7498244763a96[m
+Author: unknown <maurosanchez@gmail.com>
+Date:   Thu Apr 13 23:01:52 2023 -0300
+
+    trabajando-react-estatico
+
+[33mcommit 586f9132c4330739ba868d854eb9fee40f3e377b[m
+Author: unknown <maurosanchez@gmail.com>
+Date:   Thu Apr 13 17:59:23 2023 -0300
+
+    api/react
+
+[33mcommit f8bbc54982d159dae759aba53d434de7e95a8ddb[m
+Author: unknown <maurosanchez@gmail.com>
+Date:   Thu Apr 13 15:58:42 2023 -0300
+
+    estructura-products-users
+
+[33mcommit 26fdb9cc0150a77ed8b363a82996132a16006abe[m
+Author: FrancoSanchezCamps <francosanchezcamps.100@gmail.com>
+Date:   Tue Apr 11 14:10:03 2023 -0300
+
+    body.css
+
+[33mcommit 176498e37a27b701388f1805127b2ed6d1353839[m
+Author: FrancoSanchezCamps <francosanchezcamps.100@gmail.com>
+Date:   Tue Apr 11 13:59:19 2023 -0300
+
+    footer
+
+[33mcommit 96bb4138d6bf9976daf81f8b755502074611acfd[m
+Author: FrancoSanchezCamps <francosanchezcamps.100@gmail.com>
+Date:   Mon Apr 10 16:25:53 2023 -0300
+
+    header.css.f
+
+[33mcommit ed0081a6b2a2f4f8548de4c58458aa3311cdddf4[m
+Author: FrancoSanchezCamps <francosanchezcamps.100@gmail.com>
+Date:   Mon Apr 10 02:07:25 2023 -0300
+
+    header.css
+
+[33mcommit b2c89538be28df3a36afa8d6cf82b64295108a87[m
+Author: FrancoSanchezCamps <francosanchezcamps.100@gmail.com>
+Date:   Mon Apr 10 01:30:31 2023 -0300
+
+    header
+
+[33mcommit 225092b72bbd57203256cf01d9a1e47db3dc6a5e[m
+Author: FrancoSanchezCamps <francosanchezcamps.100@gmail.com>
+Date:   Mon Apr 10 00:54:00 2023 -0300
+
+    ancords
+
+[33mcommit f557a47b97859a2c6b1311ea9ec44fc67da65f2c[m
+Author: FrancoSanchezCamps <francosanchezcamps.100@gmail.com>
+Date:   Sun Apr 9 23:06:07 2023 -0300
+
+    boton
+
+[33mcommit faaf12810afdef348c26840963a58ed8a5a84d19[m
+Author: unknown <maurosanchez@gmail.com>
+Date:   Sun Apr 9 17:41:49 2023 -0300
+
+    estructura_REACT
+
+[33mcommit cb3b79b92672686d30f9de42dc72079ec93043c7[m
+Author: Sebastian-Velazquez <sergiovelazquez1693@gmail.com>
+Date:   Sat Apr 8 14:18:18 2023 -0300
+
+    Mi primer commit
+
+[33mcommit 56562997c9d45289f88b6be0c2a87d735d6123d6[m
+Author: Sebastian-Velazquez <sergiovelazquez1693@gmail.com>
+Date:   Sat Apr 8 00:19:55 2023 -0300
+
+    Initialize project using Create React App
