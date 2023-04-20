@@ -15,7 +15,7 @@ function App() {
       <Header/>
       <ApiUsers/>
       <Body/>
-      <ApiProducts/>
+      
       <Footer/>
 
   
