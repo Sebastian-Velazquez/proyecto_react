@@ -7,7 +7,7 @@ class CategoriasenDb extends Component{
     constructor(){
         super()
         this.state ={
-            genresList : []
+            categoriasList : []
         }
     }
     //Compomentes Ciclo de vida - Montar - Actualizar - Desmontar
