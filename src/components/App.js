@@ -7,38 +7,26 @@ import Productos from './Productos';
 import Footer from './Footer';
 import Banner from './Banner';
 import Header from './Header';
+import User from './Apis/user/UserCantidad';
+import ProductsCantidad from './Apis/product/ProductsCantidad';
+import CategoriaCantidad from './Apis/product/CategoriaCantidad';
 
 function App() {
-  return (
+	return (
     <React.Fragment>
-
-      <div id="wrapper">
-
-      <Menu/>
-
-		{/* Content Wrapper */}
-		<div id="content-wrapper" class="d-flex flex-column">
-
-			{/* Main Content */}
-			<div id="content">
-			<Header/>
-			<Banner/>
-
-			<Productos/>
-			</div>
-			{/* End of MainContent */}
-
-
-			<Footer/>
-
+    <div id="wrapper">
+    <Menu/>
+	<div id="content-wrapper" class="d-flex flex-column">
+		<div id="content">
+		<Header/>
+		<Banner/>
+		<Productos/>
 		</div>
-		{/* End of Content Wrapper */}
-
+		<Footer/>
+		</div>
 	</div>
-
-        
     </React.Fragment>
-  );
+);
 }
 
 export default App;
