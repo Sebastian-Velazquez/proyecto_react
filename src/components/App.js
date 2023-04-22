@@ -1,15 +1,11 @@
 import React from 'react';
-import Logo from '../assets/images/logo-DH.png'
-import Jordan from '../assets/images/jordan-walke.png'
-import Mandalorian from '../assets/images/mandalorian.jpg'
 import Menu from './Menu'
 import Productos from './Productos';
 import Footer from './Footer';
 import Banner from './Banner';
 import Header from './Header';
-import User from './Apis/user/UserCantidad';
-import ProductsCantidad from './Apis/product/ProductsCantidad';
-import CategoriaCantidad from './Apis/product/CategoriaCantidad';
+import CategoriaModelos from './Apis/product/CategoriaModelos';
+
 
 function App() {
 	return (

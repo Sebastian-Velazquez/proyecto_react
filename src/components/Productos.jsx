@@ -3,6 +3,7 @@ import Mandalorian from '../assets/images/mandalorian.jpg'
 import UserCantdad from './Apis/user/UserCantidad'
 import ProductsCantidad from './Apis/product/ProductsCantidad'
 import CategoriaCantidad from './Apis/product/CategoriaCantidad'
+import CategoriaModelos from './Apis/product/CategoriaModelos'
 
 
 function Productos() {
@@ -98,31 +99,7 @@ function Productos() {
                         <div class="card-header py-3">
                             <h5 class="m-0 font-weight-bold text-gray-800">Categorias</h5>
                         </div>
-                        <div class="card-body">
-                            <div class="row">
-                                 <div class="col-lg-6 mb-4">
-                                    <div class="card bg-dark text-white shadow">
-                                        <div class="card-body">
-                                            AUTOS
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 mb-4">
-                                    <div class="card bg-dark text-white shadow">
-                                        <div class="card-body">
-                                            CAMIONETAS
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 mb-4">
-                                    <div class="card bg-dark text-white shadow">
-                                        <div class="card-body">
-                                            CAMIONES
-                                        </div>
-                                    </div>
-                                </div>
-                                </div>
-                        </div>
+                                <CategoriaModelos/>
                     </div>
                 </div>
             </div>
