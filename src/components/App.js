@@ -5,6 +5,7 @@ import Footer from './Footer';
 import Banner from './Banner';
 import Header from './Header';
 import CategoriaModelos from './Apis/product/CategoriaModelos';
+import UltimoProducto from './Apis/product/UltimoProducto';
 
 
 function App() {

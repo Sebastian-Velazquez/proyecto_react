@@ -4,6 +4,7 @@ import UserCantdad from './Apis/user/UserCantidad'
 import ProductsCantidad from './Apis/product/ProductsCantidad'
 import CategoriaCantidad from './Apis/product/CategoriaCantidad'
 import CategoriaModelos from './Apis/product/CategoriaModelos'
+import UltimoProducto from './Apis/product/UltimoProducto'
 
 
 function Productos() {
@@ -59,7 +60,7 @@ function Productos() {
                         <div class="card-body">
                             <div class="row no-gutters align-items-center">
                                 <div class="col mr-2">
-                                    <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">Total de categorias
+                                    <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">Total de modelos
                                     </div>
                                     <div class="h5 mb-0 font-weight-bold text-gray-800"> <CategoriaCantidad/> </div>
                                 </div>
@@ -72,32 +73,19 @@ function Productos() {
                 </div>
             </div>
             {/* End movies in Data Base */}
-            
+                <UltimoProducto/>
 
             {/* Content Row Last Movie in Data Base */}
             <div class="row">
                 {/* Last Movie in DB */}
-                <div class="col-lg-6 mb-4">
-                    <div class="card shadow mb-4">
-                        <div class="card-header py-3">
-                            <h5 class="m-0 font-weight-bold text-gray-800">Ultimo Producto</h5>
-                        </div>
-                        <div class="card-body">
-                            <div class="text-center">
-                                <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" src={Mandalorian} alt=" Star Wars - Mandalorian "/>
-                            </div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, consequatur explicabo officia inventore libero veritatis iure voluptate reiciendis a magnam, vitae, aperiam voluptatum non corporis quae dolorem culpa citationem ratione aperiam voluptatum non corporis ratione aperiam voluptatum quae dolorem culpa ratione aperiam voluptatum?</p>
-                            <a class="btn btn-danger" target="_blank" rel="nofollow" href="/">View movie detail</a>
-                        </div>
-                    </div>
-                </div>
+                
                 {/* End content row last movie in Data Base */}
 
                 {/* Genres in DB */}
                 <div class="col-lg-6 mb-4">						
                     <div class="card shadow mb-4">
                         <div class="card-header py-3">
-                            <h5 class="m-0 font-weight-bold text-gray-800">Categorias</h5>
+                            <h5 class="m-0 font-weight-bold text-gray-800">Modelos:</h5>
                         </div>
                                 <CategoriaModelos/>
                     </div>
