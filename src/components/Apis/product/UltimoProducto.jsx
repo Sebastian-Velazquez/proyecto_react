@@ -21,6 +21,7 @@ class UltimoProducto extends Component {
         console.log("Me monte!") /** https://api.giphy.com/v1/gifs/random?api_key=lp7wQ6914aPRmDI6HePRPpQeZXyxLFkU&tag=&rating=G */
         this.apiCall("http://localhost:3001/api/products", this.mostrar)
     }
+    
 
     mostrar = (data) =>{
     let ultimoProducto = data.product[data.product.length-1]
@@ -37,7 +38,7 @@ console.log(ultimoProducto)
                 </p> */
                     /* console.log(imprimir.first_name + " Hola") */
                     /* ) */
-                 apiUsario:  
+                apiUsario:  
                 
                     <div class="col-lg-6 mb-4">
                     <div class="card shadow mb-4">
@@ -46,9 +47,9 @@ console.log(ultimoProducto)
                         </div>
                         <div class="card-body">
                             <div class="text-center">
-                                <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" src={Mandalorian} alt=" Star Wars - Mandalorian "/>
+                                <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" src={ultimoProducto.image} alt=" Star Wars - Mandalorian "/>
                             </div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, consequatur explicabo officia inventore libero veritatis iure voluptate reiciendis a magnam, vitae, aperiam voluptatum non corporis quae dolorem culpa citationem ratione aperiam voluptatum non corporis ratione aperiam voluptatum quae dolorem culpa ratione aperiam voluptatum?</p>
+                            <p>{ultimoProducto.description}</p>
                             <a class="btn btn-danger" target="_blank" rel="nofollow" href="/">View movie detail</a>
                         </div>
                     </div>
