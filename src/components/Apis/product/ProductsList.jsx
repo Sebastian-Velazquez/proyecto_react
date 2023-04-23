@@ -49,8 +49,8 @@ function ProductList(props) {
         
 
 
-            <h2>Lista De Autos </h2>
-        <div>
+            <h2 style={{display:"flex" ,borderColor:"black", border:"black", justifyContent:"center" , Border:"3px" }}>Lista De Autos </h2>
+        <div style={{display:"flex",justifyContent:"center", textAlign:"center", borderColor:"black"}}>
         <table>
             
             <thead>
