@@ -47,7 +47,7 @@ console.log(ultimoProducto)
                         </div>
                         <div class="card-body">
                             <div class="text-center">
-                                <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" src={ultimoProducto.image} alt=" Star Wars - Mandalorian "/>
+                                <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" src={ultimoProducto.image} alt=" Ultimo producto "/>
                             </div>
                             <p>{ultimoProducto.description}</p>
                             <a class="btn btn-danger" target="_blank" rel="nofollow" href="/">View movie detail</a>
