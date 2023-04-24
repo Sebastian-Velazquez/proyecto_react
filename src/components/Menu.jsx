@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from '../assets/images/logo-DH.png'
+import Logo from '../assets/images/LogoIKA.png'
 
 function Menu() {
   return (
@@ -24,7 +24,7 @@ function Menu() {
         <li class="nav-item active">
           <a class="nav-link" href="/">
             <i class="fas fa-fw fa-tachometer-alt"></i>
-            <span>Dashboard - DH movies</span></a>
+            <span>Menu</span></a>
         </li>
 
         {/* Divider */}

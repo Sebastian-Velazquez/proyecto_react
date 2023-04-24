@@ -1,5 +1,6 @@
 import React from 'react'
 import Jordan from '../assets/images/jordan-walke.png'
+import UserLogin from './Apis/user/UserLogin'
 
 function Header() {
   return (
@@ -38,12 +39,7 @@ function Header() {
             <div class="topbar-divider d-none d-sm-block"></div>
 
             {/* Nav Item - User Information */}
-            <li class="nav-item dropdown no-arrow">
-                <a class="nav-link dropdown-toggle" href="/" id="userDropdown">
-                    <span class="mr-2 d-none d-lg-inline text-gray-600 small">Jordan Walke</span>
-                    <img class="img-profile rounded-circle" src={Jordan} alt="Jordan Walke - Creador de React" width="60"/>
-                </a>
-            </li>
+            <UserLogin/>
 
         </ul>
 
