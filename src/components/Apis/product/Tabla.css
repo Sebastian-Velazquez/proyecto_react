@@ -1,6 +1,16 @@
 table, tr, td, th {
     margin:0;
+    color: #001b31;;
     border:solid 1px black;
     padding:0;
+   
+}
+table{
+    background-image: url(./../../../../public/logo512.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    font-size: 30px;
+    
 }
 tr.rowhighlight {background-color:#f0f8ff;margin:0;border:0;padding:0;}
