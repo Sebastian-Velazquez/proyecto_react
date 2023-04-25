@@ -8,6 +8,7 @@ import CategoriaModelos from './Apis/product/CategoriaModelos';
 import UltimoProducto from './Apis/product/UltimoProducto';
 import ProductList from './Apis/product/ProductsList';
 import UserLogin from './Apis/user/UserLogin';
+import Tabla from './Apis/product/Tabla';
 
 
 function App() {
@@ -20,7 +21,8 @@ function App() {
 		<Header/>
 		<Banner/>
 		<Productos/>
-		<ProductList/>
+		{/* <ProductList/> */}
+		<Tabla/>
 		</div>
 		<Footer/>
 		</div>

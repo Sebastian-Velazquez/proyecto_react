@@ -4,7 +4,7 @@ class ProductList extends Component {
     constructor(props){
         super(props);
         this.state = {
-            apiUsario: []
+            usuarioId: []
         }
     }
 
@@ -24,8 +24,20 @@ class ProductList extends Component {
         console.log(data)
         this.setState(
             {
+                usuarioId: data.product.map((imprimir, i ) => imprimir =
+                <tr>
+                    <td>{imprimir.id}</td>
+                    <td>{imprimir.name}</td>
+                    <td>{imprimir.modelo}</td>
+                    <td>{imprimir.precio}</td>
+                    <td>{imprimir.description}</td>
+                    <td><img  src={imprimir.image}></img></td>
+                </tr>
+                
+                )
+                
+        
 
-                apiUsario: data.product.lenght
                 /* apiUsario: data.users.map( (imprimir, i) => imprimir =  */
 
                 /* <p key={imprimir.first_name + i}>Nombre: {imprimir.first_name}<br></br>
@@ -49,45 +61,19 @@ class ProductList extends Component {
         /* por si la api esta cargando todavia */
         let contenido;
         if(this.state.apiUsario == ""){
+            
             contenido = <p>Cargando...</p>
         }else{
-            contenido = this.state.apiUsario
+            contenido = 
+            
+            this.state.usuarioId
         }
     return (
-        <div>
+        <React.StrictMode>
             {contenido}
             
-            <div className="col-lg-6 mb-4">
-            <div className="card shadow mb-4 ">
-      <h2 style={{display:"flex" ,borderColor:"black", border:"black", justifyContent:"center" , Border:"3px" }}>Lista De Autos </h2>
-        <div style={{display:"flex",justifyContent:"center", textAlign:"center", borderColor:"black"}}>
-        <table>
             
-            <thead>
-            <tr>
-            <th>ID</th>
-            <th>MARCA</th>
-            <th>MODELO</th>
-            <th>PRECIO</th>
-            <th>DESCRIPCION</th>
-            <th>IMAGEN</th>
-            </tr>
-            </thead>
-            <tbody>
-                <th>1</th>
-                <th>ford fiesta</th>
-                <th>2007</th>
-                <th>$100.000</th>
-                <th>gnc</th>
-                <th><img href="./images.jpg" ></img></th>
-            </tbody>
-
-        </table>
-        
-        </div>
-        </div>
-        </div>
-        </div>
+            </React.StrictMode>
         )
     }
 
