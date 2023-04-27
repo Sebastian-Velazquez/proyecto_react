@@ -50,7 +50,7 @@ console.log(ultimoProducto)
                                 <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" src={ultimoProducto.image} alt=" Ultimo producto "/>
                             </div>
                             <p>{ultimoProducto.description}</p>
-                            <a class="btn btn-danger" target="_blank" rel="nofollow" href="/">View movie detail</a>
+                            <a class="btn btn-danger" target="_blank" rel="nofollow" href="/">Ver detalles del producto</a>
                         </div>
                     </div>
                 </div>
